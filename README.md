@@ -15,9 +15,9 @@ The tidy dataset produced (SummaryData.txt) can then be read into R with read.ta
 
 <pre>
 address <- "https://s3.amazonaws.com/coursera-uploads/user-3eb2577b0bba314b191e14ea/975115/asst-3/bcec5950497711e588e9117750314cfe.txt"
-<br/>address <- sub("^https", "http", address)
-<br/>data <- read.table(url(address), header = TRUE) 
-<br/>View(data)
+address <- sub("^https", "http", address)
+data <- read.table(url(address), header = TRUE) 
+View(data)
 </pre>
 
 
